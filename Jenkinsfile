@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'python --version'
 		sh 'python MyFirstPython.py'
+		sh 'python EvenOdd.py'
             }
         }
     }

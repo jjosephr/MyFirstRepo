@@ -4,8 +4,9 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
-		sh 'python MyFirstPython.py'
-		sh 'python EvenOdd.py'
+		        sh 'python MyFirstPython.py'
+		        sh 'python EvenOdd.py'
+		        sh 'python GreatestNumberAmoungThree.py'
             }
         }
     }

@@ -1,7 +1,22 @@
-v = [35,66,77,23,2,1] #int(input("Enter a value to check its is even or odd number... "))
-for element in v:
-    if (element%2 == 0):
-        print(element, "is an Even number")
+import unittest
+
+def EvenOdd(v):
+    if (v%2 == 0):
+        return "Even"
     else:
-        print(element, "is an ODD number")
+        return "Odd"
+
+class EvenOddTest(unittest.TestCase):
+    def test1(self):
+        self.assertEqual(EvenOdd(10),"Even")
+    def test2(self):
+        self.assertEqual(EvenOdd(11),"Odd")
+    def test3(self):
+        self.assertEqual(EvenOdd(0),"Even")
+    def test4(self):
+        self.assertEqual(EvenOdd(-10),"Even")
+
+if __name__ == '__main__':
+    unittest.main()
+
 

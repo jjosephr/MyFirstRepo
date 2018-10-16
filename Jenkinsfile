@@ -7,7 +7,7 @@ pipeline {
 		        sh 'python MyFirstPython.py'
 		        sh 'python EvenOdd.py'
 		        sh 'python GreatestNumberAmoungThree.py'
-		        sh 'python FactorialRecursion.py'
+		        sh 'python FactorialUsingRecursion.py'
             }
         }
     }

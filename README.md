@@ -15,7 +15,7 @@ EvenOdd.py
 
 GreatestNumberAmoungThree.py
     Purpose: Write a shell script to find out the greatest among three inputs.
-    Result: In-progress 
+    Result: Validated and working fine 
     
 
 3. Write a shell script to calculate the net salary of an employee in a particular month considering variousallowances (TA, DA, HRA) and deductions (INCOME TAX, PROVIDEND FUND) as:
